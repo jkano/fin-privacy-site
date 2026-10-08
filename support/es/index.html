@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fin — Soporte</title>
+<meta name="description" content="Ayuda y contacto de Fin, una app de finanzas del hogar.">
+<style>
+  :root { color-scheme: light dark; --bg:#f2f2f7; --card:#fff; --text:#1c1c1e; --muted:#6c6c70; --line:#e5e5ea; --accent:#0a64d6; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#000; --card:#1c1c1e; --text:#f2f2f7; --muted:#a1a1a6; --line:#38383a; --accent:#409cff; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:32px 16px 64px; }
+  h1 { font-size:30px; margin:0 0 4px; letter-spacing:-0.02em; }
+  h2 { font-size:20px; margin:28px 0 8px; }
+  p, li { margin:8px 0; }
+  ul { padding-left:22px; }
+  a { color:var(--accent); }
+  .muted { color:var(--muted); font-size:14px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:18px; padding:8px 22px 22px; margin-top:20px; }
+  details { border-top:1px solid var(--line); padding:12px 0; }
+  details:first-of-type { border-top:0; }
+  summary { cursor:pointer; font-weight:600; }
+  details p { color:var(--text); }
+  nav { display:flex; gap:12px; margin:12px 0 0; font-size:15px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Fin</h1>
+  <div class="muted">Soporte</div>
+  <nav><a href="/support/en/">English</a> · <a href="/privacy">Política de privacidad</a></nav>
+
+  <section class="card">
+    <h2>¿En qué podemos ayudarte?</h2>
+    <p>Fin la hace y la atiende un solo desarrollador. Escríbenos con una pregunta, un problema o una idea, y cuéntanos qué estabas haciendo, qué esperabas y qué pasó. Una captura de pantalla ayuda.</p>
+    <p><strong>Correo:</strong> <a href="mailto:fin@jdkno.com">fin@jdkno.com</a></p>
+    <p class="muted">Normalmente respondemos en pocos días.</p>
+  </section>
+
+  <section class="card">
+    <h2>Preguntas frecuentes</h2>
+    <details><summary>No puedo iniciar sesión u olvidé mi contraseña</summary><p>En la pantalla de inicio de sesión toca <em>¿Olvidaste tu contraseña?</em> y sigue los pasos: te enviamos un código por correo. Si activaste la autenticación en dos pasos, también recibes un código por correo cada vez que inicias sesión.</p></details><details><summary>¿Cómo me uno al hogar de mi pareja?</summary><p>El dueño del hogar abre <em>Perfil › Hogar</em> y lo abre para unirse, lo que muestra un código de invitación por unos minutos. En tu teléfono elige <em>Unirte a un hogar</em> e ingresa el código. Tus cuentas y transacciones siguen siendo privadas; el hogar comparte las facturas y las metas que decidas compartir.</p></details><details><summary>¿Cómo oculto los montos en pantalla?</summary><p>Activa <em>Ocultar saldos</em> en <em>Perfil</em>. Los montos se muestran como puntos en toda la app, incluidos los widgets.</p></details><details><summary>¿Cómo funcionan las metas compartidas?</summary><p>Abre una meta tuya, toca el menú <em>…</em> y elige <em>Administrar miembros</em> para invitar a personas de tu hogar. Cada persona acepta y elige dónde está su ahorro para la meta: un bolsillo o una cuenta de ahorros. La meta cuenta lo que todos tienen juntos, y todos en ella ven lo que aporta cada persona. Una cuenta cuenta todo lo que tiene; para una parte de una cuenta, usa un bolsillo.</p></details><details><summary>¿Cómo agrego compras automáticamente?</summary><p>Abre <em>Perfil › Automatizaciones</em> para ver una guía paso a paso. Las compras con Apple Pay llegan mediante una automatización de Atajos, y también las notificaciones y los mensajes del banco. Leer una notificación requiere iOS 27; mientras tanto, copia el texto de un mensaje del banco y toca <em>Llenar desde el mensaje copiado</em> al agregar una transacción.</p></details><details><summary>No me llegan las notificaciones</summary><p>Revisa <em>Ajustes › Notificaciones › Fin</em> en iOS y que las alertas estén permitidas. En la app, <em>Perfil › Notificaciones</em> tiene un interruptor para cada tipo (facturas, alertas de presupuesto, metas compartidas y más).</p></details><details><summary>¿Fin funciona sin conexión?</summary><p>La mayor parte de la app funciona sin conexión y se sincroniza cuando vuelves a tener internet. Los bolsillos, las metas y unirse a un hogar necesitan conexión.</p></details><details><summary>¿Cómo agrego un widget?</summary><p>Mantén presionado un espacio vacío de tu pantalla de inicio, toca <em>+</em> y busca Fin. Hay widgets de facturas, presupuestos, metas y gasto del mes.</p></details><details><summary>¿Cómo elimino mi cuenta?</summary><p>Ve a <em>Perfil › Eliminar cuenta</em>. Te enviamos un código por correo para confirmar. Si eres dueño de un hogar con otros miembros, primero eliges un nuevo dueño. Se borran tu cuenta y tus datos personales.</p></details>
+  </section>
+
+  <section class="card">
+    <h2>Tus datos</h2>
+    <p>Tus cuentas y transacciones son privadas. Lo que guarda Fin y quién lo procesa está descrito en la <a href="/privacy">Política de privacidad</a>.</p>
+  </section>
+</main>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fin — Support</title>
+<meta name="description" content="Help and contact for Fin, a household finance app.">
+<style>
+  :root { color-scheme: light dark; --bg:#f2f2f7; --card:#fff; --text:#1c1c1e; --muted:#6c6c70; --line:#e5e5ea; --accent:#0a64d6; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#000; --card:#1c1c1e; --text:#f2f2f7; --muted:#a1a1a6; --line:#38383a; --accent:#409cff; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:32px 16px 64px; }
+  h1 { font-size:30px; margin:0 0 4px; letter-spacing:-0.02em; }
+  h2 { font-size:20px; margin:28px 0 8px; }
+  p, li { margin:8px 0; }
+  ul { padding-left:22px; }
+  a { color:var(--accent); }
+  .muted { color:var(--muted); font-size:14px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:18px; padding:8px 22px 22px; margin-top:20px; }
+  details { border-top:1px solid var(--line); padding:12px 0; }
+  details:first-of-type { border-top:0; }
+  summary { cursor:pointer; font-weight:600; }
+  details p { color:var(--text); }
+  nav { display:flex; gap:12px; margin:12px 0 0; font-size:15px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Fin</h1>
+  <div class="muted">Support</div>
+  <nav><a href="/support/es/">Español</a> · <a href="/privacy">Privacy policy</a></nav>
+
+  <section class="card">
+    <h2>How can we help?</h2>
+    <p>Fin is made and supported by one developer. Write to us with a question, a problem or an idea, and tell us what you were doing, what you expected and what happened. A screenshot helps.</p>
+    <p><strong>Email:</strong> <a href="mailto:fin@jdkno.com">fin@jdkno.com</a></p>
+    <p class="muted">We usually answer within a few days.</p>
+  </section>
+
+  <section class="card">
+    <h2>Common questions</h2>
+    <details><summary>I can’t sign in or I forgot my password</summary><p>On the sign-in screen, tap <em>Forgot password?</em> and follow the steps: we email you a code. If you turned on two-factor authentication, you also get a code by email each time you sign in.</p></details><details><summary>How do I join my partner’s household?</summary><p>The household’s owner opens <em>Profile › Household</em> and opens it for joining, which shows an invite code for a few minutes. On your phone choose <em>Join a household</em> and enter the code. Your accounts and transactions stay private to you; the household shares bills, and goals you choose to share.</p></details><details><summary>How do I hide the amounts on screen?</summary><p>Turn on <em>Hide balances</em> in <em>Profile</em>. Amounts show as dots everywhere in the app, including the widgets.</p></details><details><summary>How do shared goals work?</summary><p>Open a goal you own, tap the <em>…</em> menu and choose <em>Manage members</em> to invite people from your household. Each person accepts and chooses where their savings for it are: a pocket or a savings account. The goal counts what everyone holds together, and everyone in it sees what each person has put in. An account counts everything it holds, so for part of an account use a pocket.</p></details><details><summary>How do I add purchases automatically?</summary><p>Open <em>Profile › Automations</em> for a step-by-step guide. Apple Pay purchases arrive through a Shortcuts automation, and so do bank notifications and messages. Reading a notification needs iOS 27; until then, copy the text of a bank message and tap <em>Fill in from copied message</em> when you add a transaction.</p></details><details><summary>I’m not getting notifications</summary><p>Check iOS <em>Settings › Notifications › Fin</em> and that alerts are allowed. In the app, <em>Profile › Notifications</em> has a switch for each kind (bills, budget alerts, shared goals, and more).</p></details><details><summary>Does Fin work offline?</summary><p>Most of the app works without a connection and syncs when you are back online. Pockets and goals, and joining a household, need a connection.</p></details><details><summary>How do I add a widget?</summary><p>Press and hold an empty spot on your Home Screen, tap <em>+</em> and search for Fin. There are widgets for bills, budgets, goals and the month’s spending.</p></details><details><summary>How do I delete my account?</summary><p>Go to <em>Profile › Delete account</em>. We email a code to confirm. If you own a household with other members you choose a new owner first. Your account and personal data are deleted.</p></details>
+  </section>
+
+  <section class="card">
+    <h2>Your data</h2>
+    <p>Your accounts and transactions are private to you. What Fin stores and who processes it is described in the <a href="/privacy">Privacy policy</a>.</p>
+  </section>
+</main>
+</body>
+</html>
