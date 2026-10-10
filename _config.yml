@@ -1,0 +1,4 @@
+# GitHub Pages builds this site with Jekyll. Everything here is plain HTML and static files, so the
+# only setting needed is what to leave out of the published site.
+exclude:
+  - README.md
