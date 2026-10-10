@@ -28,7 +28,7 @@ details[open] summary i::after{transform:rotate(0)}details p{margin:0}
 .coin{animation:drop 3.4s ease-in infinite;transform-box:fill-box}.spin{animation:spin 1.7s ease-in-out infinite;transform-box:fill-box;transform-origin:center}.pig{animation:squish 3.4s ease-out infinite;transform-box:fill-box;transform-origin:50% 100%}
 @media (prefers-reduced-motion:reduce){.pg *{animation:none!important}}
 
-.pg{background:#05070D;color:#E8EEF9;width:100%;container-type:inline-size;overflow:visible;overflow-x:clip;--pad:clamp(20px,4.4cqw,64px)}
+.pg{overflow-anchor:none;background:#05070D;color:#E8EEF9;width:100%;container-type:inline-size;overflow:visible;overflow-x:clip;--pad:clamp(20px,4.4cqw,64px)}
 .nav{position:sticky;top:0;z-index:9;display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px var(--pad);background:rgba(5,7,13,.78);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid rgba(255,255,255,.07)}
 .nl{display:flex;gap:30px;font-weight:600;font-size:15px;color:#8ea0bd}.nl a:hover{color:#fff}.nr{display:flex;gap:14px;align-items:center}
 .lsw{background:rgba(255,255,255,.08)}.lsw label{color:#fff}.pg:not(:has(#lang-es:checked)) .lsw label[for=lang-en],.pg:has(#lang-es:checked) .lsw label[for=lang-es]{background:#0A84FF}
